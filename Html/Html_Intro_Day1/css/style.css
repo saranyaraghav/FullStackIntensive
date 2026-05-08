@@ -1,0 +1,31 @@
+ .base_container h1{
+                text-align: center;
+                color:#888888;
+                position: relative;
+            }
+            .description_container{ 
+                margin-left: 25px;
+            }
+            .list_items_container ul{
+                margin-left: 25px;
+                
+            }
+            .image_container img{
+                height: 250px;
+            }
+            .image_container P{
+                color: #888888;
+                font-weight: BOLD;
+                margin-left: 25px;
+            }
+            div.video_list .embed_videos iframe,.local_video {
+                width: 560px;
+                height:315px;
+                
+            }
+            .insta_post{
+                
+                position:absolute;
+                margin-top: 980px;
+            }
+           
