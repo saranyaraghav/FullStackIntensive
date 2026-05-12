@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: small;
+    background-color: #F0F0F0;
+}
+.card-container{
+    padding: 10px 10px;
+    margin: 10px auto;
+    display: flex;    
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width:300px;
+    background-color: white;
+    margin:10px auto;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+
+.card_img{
+    width: 50%;
+    margin: 10px auto;
+}
+.continue-btn{
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    background-color: #7B68EE;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    font-size: 10px;
+    margin:10px 0 30px 0;
+}
+input{
+    width: 72%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #7B68EE;
+    box-shadow: 0 0 1px 3px #E1EBEE;
+    margin-top: 18px;
+    text-align:center;
+}
+P {
+    color: #606060;
+}
+.card-one-email{
+    font-weight: bold;
+    color: black;
+}
+input:focus{
+    border-radius: 5px;
+    border-color: 2px solid #7B68EE;
+    outline: none;
+}
+
+.card-logo-img {
+    width: 17%;
+    margin: 24px auto 0px auto;
+}
+.life_balance, .life_balance_personal {
+    text-align: left;
+    background-color: #F0F0F0;
+    margin: 26px 24px;
+    border-radius: 5px;
+    padding: 0px;
+    display: flex;
+}
+.life_balance img {
+    width: 16%;
+}
+.life_balance img.arrow{
+    width: 8%;
+    justify-content: end;
+    background-color: #F0F0F0;
+    height: 18px;
+    margin-top: 10px;
+}
+.life_balance span {
+    margin-top: 13px;
+}
+.life_balance_personal span {
+    margin-top: 5px;
+} 
+.life_balance_personal {
+    background: none;
+}
+.port-content {
+    font-size: 10px;
+}
